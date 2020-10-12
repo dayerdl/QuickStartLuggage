@@ -39,7 +39,7 @@
             android:value="barcode,face,ocr,ica"/>
 
         <activity
-            android:name=".EntryChoiceActivity"
+            android:name=".kotlin.CameraXLivePreviewActivity"
             android:exported="true"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -59,11 +59,11 @@
             android:theme="@style/AppTheme">
         </activity>
 
-        <activity
-            android:name=".java.CameraXLivePreviewActivity"
-            android:exported="true"
-            android:theme="@style/AppTheme">
-        </activity>
+<!--        <activity-->
+<!--            android:name=".java.CameraXLivePreviewActivity"-->
+<!--            android:exported="true"-->
+<!--            android:theme="@style/AppTheme">-->
+<!--        </activity>-->
 
         <activity
             android:name=".java.StillImageActivity"
@@ -82,11 +82,11 @@
             android:theme="@style/AppTheme">
         </activity>
 
-        <activity
-            android:name=".kotlin.CameraXLivePreviewActivity"
-            android:exported="true"
-            android:theme="@style/AppTheme">
-        </activity>
+<!--        <activity-->
+<!--            android:name=".kotlin.CameraXLivePreviewActivity"-->
+<!--            android:exported="true"-->
+<!--            android:theme="@style/AppTheme">-->
+<!--        </activity>-->
 
         <activity
             android:name=".kotlin.StillImageActivity"
